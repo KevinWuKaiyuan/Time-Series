@@ -3,22 +3,7 @@
 #include "TimeSeries.h"
 
 int main() {
-/*
-    CITATION:
-    This function was modified by chat.openai.com with the prompt:
-    "I am writing a main function that would call other functons when receiving a command.This 
-    picture contains my functions, and this is the example code I give you:
-    if (command == "ADD") {
-            int year;
-            double value;
-            bool added = the_array.ADD(year, value);
-            if (added){
-                std::cout<<"success\n";
-            }
-    follow this pattern and generate the rest of main function for me. "
-    The AI tool then duplicate this pattern for other functions, and it
-    wrote the getline for me as well.
-*/
+
     dynamic_array the_array; 
     std::string line;
     while (std::getline(std::cin, line)) {
